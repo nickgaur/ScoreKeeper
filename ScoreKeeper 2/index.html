@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="img-box">
+            <img src="https://blog.playo.co/wp-content/uploads/2017/03/table-tennis-shots.jpg" alt="ping-pong">
+        </div>
+        <div class="para">
+            <p class="mx-3 pingpong">ping pong score keeper</p>
+        </div>
+        <div class="main mx-3">
+            <p class="mb-0 score"><span class="player-1-score">0</span> to <span class="player-2-score">0</span></p>
+            <p class="simple-para mb-3">Use the button below to keep the score</p>
+            <p><span class="input">Playing To:</span>
+                <select name="playingTo" id="">
+                    <option value="5">5</option>
+                    <option value="7">7</option>
+                    <option value="11">11</option>
+                    <option value="15">15</option>
+                    <option value="21">21</option>
+                </select></p>
+        </div>
+        <div class="buttons d-flex flex-row">
+            <button class="btn btn-success player-1">+1 Player One</button>
+            <button class="btn btn-primary player-2">+1 Player Two</button>
+            <button class="btn btn-danger reset">Reset</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
